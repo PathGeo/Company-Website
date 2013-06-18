@@ -1,0 +1,155 @@
+body {
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Oswald', 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif; 
+}
+
+nav {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navigation, nav {
+    overflow: hidden;
+    background: rgba(240, 74, 35, 1);
+}
+
+.navigation {
+    margin: 0 auto;
+    width: 896px;
+}
+
+.navigation li {
+    float: left;
+}
+
+.logo {
+    padding: 16px 35px 0 35px;
+}
+
+.nav-item {
+    padding: 40px 32px 5px 32px;
+}
+
+.nav-item:hover,
+.nav-item:active,
+.nav-item.active {
+    cursor: pointer;
+    background: white;
+}
+
+.nav-item:hover a,
+.nav-item:active a,
+.nav-item.active a {
+    color: rgba(240, 74, 35, 1);
+}
+
+.navigation a {
+    font: 20px "Oswald", " Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+.container,
+.content {
+    overflow: hidden;
+}
+
+.container {
+    width: 896px;
+    margin: 0 auto;
+}
+
+.introduction {
+	height: 650px;
+	margin-top: 15px;
+}
+
+.text {
+	bottom: -50px;
+	position: relative;
+	color: #555;
+}
+
+.introduction h1 {
+	font-size: 80px;
+	float: left;
+}
+
+.introduction p {
+	font-size: 20px;
+	margin-left: 20px;
+	margin-top: 50px;
+	float: left;
+}
+
+.content {
+    margin-top: 15px;
+}
+
+.column {
+    float: left;
+    width: 292px;
+    height: 100px;
+    margin-right: 9px;
+    border-right: 1px solid #999;
+}
+
+.column:last-child {
+    margin-right: 0;
+    border-right: none;
+}
+
+.column h2,
+.column p {
+    padding: 2%;
+    width: 96%;
+}
+
+.column p {
+    line-height: 22px;
+    color: #666;
+}
+
+.column h2,
+.column a {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: rgba(240, 74, 35, 1);
+}
+
+.column a:hover {
+    opacity: 0.8;
+}
+
+.caret {
+    position: relative;
+    top: -3px;
+    left: 2px;
+}
+
+.icon {
+    margin-right: 6px;
+    width: 25px;
+    height: 25px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+footer p {
+    font-size: 10px;
+    color: #aaa;
+    text-align: center;
+    padding-bottom: 20px;
+}
