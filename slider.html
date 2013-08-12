@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Carousel Template for Bootstrap</title>
+
+<!-- jQuery library (served from Google) -->
+<script src="jquery/jquery-1.9.1.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="jquery.bxslider.css" rel="stylesheet" />
+
+
+
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+  
+<script type="text/javascript">
+  $(document).ready(function(){
+    
+$('.bxslider').bxSlider({
+  auto: true,
+  autoControls: true
+});
+  });
+</script>  
+  
+ <div id="menu" style="background-color:#FFD700;height:500px;width:600px;float:left;"> 
+<ul class="bxslider" style="width:400px;height:300px;">
+  <li><img src="images/example-slide-1.jpg" /></li>
+  <li><img src="images/example-slide-2.jpg" /></li>
+  <li><img src="images/example-slide-3.jpg" /></li>
+  <li><img src="images/example-slide-4.jpg" /></li>
+</ul>
+</div>
+  </body>
+</html>

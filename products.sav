@@ -1,0 +1,512 @@
+
+<!doctype html>
+<!--[if !IE]>      <html class="no-js non-ie" lang="en-US"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" lang="en-US"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en-US"> <![endif]-->
+<!--[if IE 9 ]>    <html class="no-js ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+<title>Products &#124; PathGeo</title>
+
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="https://www.pathgeo.com/xmlrpc.php" />
+
+<link rel="alternate" type="application/rss+xml" title="PathGeo &raquo; Feed" href="https://www.pathgeo.com/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="PathGeo &raquo; Comments Feed" href="https://www.pathgeo.com/?feed=comments-rss2" />
+<link rel="alternate" type="application/rss+xml" title="PathGeo &raquo; Products Comments Feed" href="https://www.pathgeo.com/?feed=rss2&#038;page_id=33" />
+<link rel='stylesheet' id='admin-bar-css'  href='https://www.pathgeo.com/wp-includes/css/admin-bar.min.css?ver=3.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='googlefonts-css'  href='https://fonts.googleapis.com/css?family=Lato:400&subset=latin' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-style-css'  href='https://www.pathgeo.com/wp-content/themes/responsive/style.css?ver=1.9.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-media-queries-css'  href='https://www.pathgeo.com/wp-content/themes/responsive/core/css/style.css?ver=1.9.3.2' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.pathgeo.com/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<script type='text/javascript' src='https://www.pathgeo.com/wp-content/themes/responsive/core/js/responsive-modernizr.js?ver=2.6.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.pathgeo.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.pathgeo.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Blog' href='https://www.pathgeo.com/?page_id=19' />
+<link rel='next' title='SERVICES' href='https://www.pathgeo.com/?page_id=86' />
+<meta name="generator" content="WordPress 3.5.2" />
+<link rel='canonical' href='https://www.pathgeo.com/?page_id=33' />
+<style type='text/css' media='screen'>
+	body{ font-family:"Lato", arial, sans-serif;}
+</style>
+<!-- fonts delivered by Wordpress Google Fonts, a plugin by Adrian3.com --><!-- Custom CSS Styles -->
+<style type="text/css" media="screen">
+#products{
+position:relative;
+bottom:90px;
+right:1050px;
+
+}
+
+#product_main{
+width:3000px;
+height:300px;
+background-color:#CCFF99
+}
+
+#product_main_m{
+width:910px;
+height:300px;
+background-color:#99FF99;
+}
+
+#tab_top{
+width:3000px;
+height:280px;
+background-color:#505050 ;
+}
+
+#tab_top_m{
+width:910px;
+height:70px;
+background-color:#686868 ;
+}
+
+#tabs{
+position:relative;
+bottom:310px;/* move upward all tab areas */
+right:5px;
+border:none;
+width:910px;
+background:transparent;
+
+} 
+ 
+#anchor_tag1{
+position:relative;
+right:65px;
+bottom:0px;
+}
+
+#anchor_tag2{
+position:relative;
+right:65px;
+bottom:0px;
+}  
+ 
+#first_tab{
+
+width:415px;
+height:400px;
+}
+
+#second_tab{
+
+width:415px;
+height:400px;
+}
+
+#tab_main{
+
+position:relative;
+bottom:277px;
+
+}
+
+.tab_bg ul{
+
+border:none;
+}
+</style>
+<!-- Custom Scripts -->
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+
+
+  <script>
+  $(function() {
+    $( "#tabs" ).tabs({
+      event: "mouseover"
+    });
+  });
+  </script>
+
+
+
+
+<div style="background-color:#36C8EA;height:10px;"></div>
+<center>
+<div id="container_center" style="background-color:#ffffff;text-align:right;width:990px;" >
+
+
+
+	<a href="https://www.pathgeo.com/demo/maptime/">
+	    <div class="small blue awesome">
+	    	<font style="font-family:Lato;font-size:150%;margin:0px;text-align:right;float:right;color:#ffffff;">
+	    	
+	    		Client Login 
+	    		
+	    	</font>
+	    </div> 
+	</a>
+	
+	<a href="https://www.pathgeo.com/demo/maptime/">
+	    <div class="small grey awesome">
+	    	<font style="font-family:Lato;font-size:150%;margin:0px;text-align:right;float:right;color:#666; ">
+	    	
+	    		Request A Demo
+	    		
+	    	</font>
+	    </div> 
+	</a>
+	
+</div>
+</center>
+<div style="background-color:#ffffff;height:15px;"></div>
+<!-- We need this for debugging -->
+<!-- Responsive 1.9.3.3 -->
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+<style type="text/css" media="screen">
+	html { margin-top: 28px !important; }
+	* html body { margin-top: 28px !important; }
+</style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+</head>
+
+<body class="page page-id-33 page-template page-template-full-width-page-php logged-in admin-bar no-customize-support custom-background">
+                 
+<div id="container" class="hfeed">
+         
+        <div id="header">
+
+		    
+                
+       
+	               
+        <div id="logo">
+            <a href="https://www.pathgeo.com/"><img src="https://www.pathgeo.com/wp-content/themes/responsive/core/images/default-logo.png" width="300" height="100" alt="PathGeo" /></a>
+        </div><!-- end of #logo -->
+        
+    
+        
+        				<div class="main-nav"><ul id="menu-pathgeo" class="menu"><li id="menu-item-115" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-115"><a href="https://www.pathgeo.com/products.html">PRODUCTS</a></li>
+<li id="menu-item-94" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a href="https://www.pathgeo.com/?page_id=86">SERVICES</a></li>
+<li id="menu-item-93" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93"><a href="https://www.pathgeo.com/?page_id=88">ABOUT US</a></li>
+<li id="menu-item-92" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92"><a href="https://www.pathgeo.com/?page_id=90">CONTACT US</a></li>
+</ul></div>                
+            
+			 
+    </div><!-- end of #header -->
+        
+	    <div id="wrapper" class="clearfix"style="border:none;" >
+				
+<div id="content-full" class="grid col-940" style="height:1700px;border:none;">
+        
+	
+		        
+    <div class="breadcrumb-list" xmlns:v="http://rdf.data-vocabulary.org/#"><span class="breadcrumb" typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="https://www.pathgeo.com/">Home</a></span> <span class="chevron">&#8250;</span> <span class="breadcrumb-current">Products</span></div>        
+	<div id="post-33" class="post-33 page type-page status-publish hentry">       
+				
+                
+	<h1 class="entry-title post-title">Products</h1>
+
+                
+
+				
+<div class="post-entry">
+
+				
+				
+<center>
+<div id="products">
+<div id="product_main" >
+<div id="product_main_m" ></div>
+</div>
+
+<div id="tab_top" >
+	<div id="tab_top_m" >
+	
+		<div id="right_arrow" style="background-color:transparent;height:30px;width:30px;float:left;margin:15px 2px 10px 20px">
+			<img src = "https://www.pathgeo.com/wp-content/themes/responsive/core/images/arrow-down.png" alt="logo" border="0" style = "margin:0px 0px 0px 0px;width:26px;height:30px;" />						
+		</div>	
+
+    	<span><font color="ffffff" style="font-family:Lato;font-size:190%;float:left;margin:15px 2px 10px 10px;font-weight:normal;">			
+    		PathGeo
+    	</font></span>	
+    	<span><font color="E0E0E0" style="font-family:Lato;font-size:190%;float:left;margin:15px 2px 10px 10px;font-weight:normal;">			
+    		Products
+    	</font></span>
+	
+	</div>
+</div>
+</div>
+
+<div id="tabs" class="tab_bg">
+	<ul>
+		<li><a id = "first_tab" href="#tabs-1">		
+			<div id="maptime_title" style="background-color:transparent;height:140px;width:275px;float:left;">
+				<font color="36c8ea " style="font-family:Lato;font-size:190%;float:left;font-weight:normal;">			
+					&nbsp;&nbsp;&nbsp;
+					Map Time
+				</font>	
+				<font color="808080" style="font-family:Lato;font-size:130%;float:left;margin:10px 20px 10px 20px;text-align:left;font-weight:normal;">			
+					A Product that allows you </br>
+					to Lorem ipsum dolor sit </br>
+					amet adipiscing consuetir 
+				</font>						
+			</div>
+			
+			<div id="maptime_img" style="background-color:#EEEEEE;height:140px;width:140px;float:left;">
+				
+			</div>
+			</a>	
+		</li>
+		
+		<li><a id = "second_tab" href="#tabs-2">
+			<div id="socialtime_title" style="background-color:transparent;height:140px;width:275px;float:left;">
+				<font color="36c8ea " style="font-family:Lato;font-size:190%;float:left;font-weight:normal;">			
+					&nbsp;&nbsp;&nbsp;
+					Social Time
+				</font>	
+				<font color="808080" style="font-family:Lato;font-size:130%;float:left;margin:10px 20px 10px 20px;text-align:left;font-weight:normal;">			
+					A Product that allows you </br>
+					to Lorem ipsum dolor sit </br>
+					amet adipiscing consuetir 
+				</font>						
+			</div>
+			
+			<div id="maptime_img" style="background-color:#EEEEEE;height:140px;width:140px;float:left;">
+				
+			</div>
+			</a>
+		</li>
+	</ul>
+	<div id="tab_main">
+		<div id="tabs-1">
+			<div id="anchor_tag1" style="width:1000px">
+				<div id="tab1_menu" style="background-color:#E0E0E0 ;height:400px;width:200px;float:left;">
+							</div>
+				<div id="tab1_content" style="background-color:#D8D8D8 ;height:400px;width:800px;float:left;">
+							</div>
+				<div id="tab1_content2" style="background-color:#E8E8E8;clear:both;text-align:center;height:800px"></div>
+				</p>
+			</div>
+			</p>
+		</div>
+		
+		<div id="tabs-2">
+			<div id="anchor_tag2" style="width:1000px">
+				<div id="tab2_menu" style="background-color:#C0C0C0 ;height:400px;width:200px;float:left;">
+							</div>
+				<div id="tab2_content" style="background-color:#F8F8F8  ;height:400px;width:800px;float:left;">
+							</div>
+				<div id="tab2_content2" style="background-color:#FFFFCC;clear:both;text-align:center;height:800px"></div>
+				</p>
+			</div>
+			</p>
+		</div>
+		</p>
+	</div>
+</div>
+
+</center>
+
+
+
+
+
+
+
+</div><!-- end of .post-entry -->
+            
+				
+				
+				
+           
+
+<div class="post-edit"><a class="post-edit-link" href="https://www.pathgeo.com/wp-admin/post.php?post=33&amp;action=edit" title="Edit Page">Edit</a></div>  				               
+				      
+			</div><!-- end of #post-33 -->       
+			            
+						
+
+
+
+			            
+          
+      
+</div><!-- end of #content-full -->
+
+		    </div><!-- end of #wrapper -->
+    </div><!-- end of #container -->
+
+<div id="footer" class="clearfix">
+	
+    <div id="footer-wrapper">
+    
+        <div class="grid col-940">
+        
+        <div class="grid col-540">
+		         </div><!-- end of col-540 -->
+         
+         <div class="grid col-380 fit">
+         <ul class="social-icons"></ul><!-- end of .social-icons -->         </div><!-- end of col-380 fit -->
+         
+         </div><!-- end of col-940 -->
+                             
+
+
+		<!-- end .powered -->
+       
+    </div><!-- end #footer-wrapper -->
+    
+	</div><!-- end #footer -->
+
+<!-- Custom Scripts -->
+  
+
+
+<div id="bottom" style="font-family:Lato;">
+
+<div id="foot_top" style="background-color:#33CCFF;height:10px;">
+</div>
+
+<center>
+<div id="foot_top" style="background-color:#ffffff;height:100px;">
+	<div id="container_center1" style="background-color:#ffffff;text-align:left;width:1000px;" >
+		
+		<div id="copoyright_area" style="background-color:transparent;height:60px;width:420px;float:left;text-align:center;padding:20px;font-family:Lato;">
+				<font color="808080  " style="font-family:Lato;font-size:80%;float:left;margin:0px;">			
+					COPYRIGHT 2013,
+				</font>	
+				<font color="36c8ea  " style="font-family:Lato;font-size:80%;float:left;margin:0px;">			
+					PathGeo, Inc.
+				</font>	
+
+				
+		</div>
+		
+		<div id="blog_areas" style="background-color:transparent;height:40px;width:120px;float:left;text-align:center;padding:25px;font-family:Lato;">
+
+			<a href="https://www.pathgeo.com/?page_id=19" ><img src = "https://www.pathgeo.com/wp-content/themes/responsive/core/images/icon-blog.png" alt="logo" border="0" style = "margin:0px 0px 0px 0px;width:40px;height:30px;" /></a>		
+
+				<a id= "blog" href="https://www.pathgeo.com/?page_id=19"><b><font face="Lato" style="color:#808080;font-size:120%;">
+					BLOG
+				</font></a>				
+				
+			
+		</div>
+		
+		<div id="videos" style="background-color:transparent;height:40px;width:140px;float:left;text-align:center;padding:25px;font-family:Lato;">
+			
+			<a href="https://www.pathgeo.com/?page_id=100" ><img src = "https://www.pathgeo.com/wp-content/themes/responsive/core/images/icon-videos.png" alt="logo" border="0" style = "margin:0px 0px 0px 0px;width:40px;height:30px;" /></a>
+
+				<a id= "videos" href="https://www.pathgeo.com/?page_id=100"><b><font face="Lato" style="color:#808080;font-size:120%;">
+					VIDEOS
+				</font></a>	
+			
+		</div>
+		
+		<div id="docs_area" style="background-color:transparent;height:40px;width:120px;float:left;text-align:center;padding:25px;font-family:Lato;">
+		
+			<a href="https://www.pathgeo.com/?page_id=103" ><img src = "https://www.pathgeo.com/wp-content/themes/responsive/core/images/icon-docs.png" alt="logo" border="0" style = "margin:0px 0px 0px 0px;width:40px;height:30px;" /></a>
+	
+				<a id= "docs" href="https://www.pathgeo.com/?page_id=103"><b><font face="Lato" style="color:#808080;font-size:120%;">
+					DOCS
+				</font></a>	
+	
+		</div>	
+	
+	</div>
+</div>
+</center>
+
+<div id="foot_top" style="background-color:#F0F0F0;height:30px;">
+</div>
+
+<center>
+<div id="container_center2" style="background-color:#ffffff;text-align:left;width:980px;" >
+
+
+
+
+
+	<div id="foot_ML" style="background-color:#ffffff;height:80px;width:auto;float:left;padding:10px;">
+		<a href="http://vision.sdsu.edu/wordpress/"><img src="http://vision.sdsu.edu/image/logo.jpg" width="420" height="80" alt="PathGeo" /></a>
+	</div>
+	
+	<div id="foot_ML" style="background-color:#ffffff;height:80px;width:auto;float:left;padding:10px;font-family:Lato;">
+	<br/>
+		<font face="Lato" style="color:#808080;font-size:100%;">
+		Contact: (619) 594-0205  |  info@pathgeo.com
+		</font>
+	</div>	
+
+	<div id="foot_MR" style="background-color:#ffffff;height:80px;width:auto;float:right;padding:10px;">
+		
+	</div>
+
+
+</div>
+
+
+	
+
+	<div id="foot_bottom" style="background-color:#F0F0F0;clear:both;text-align:center;height:1200px;font-family:Lato;">
+		</br></br></br>
+		<a id= "mappingideas" href="http://mappingideas.sdsu.edu/"><b><font face="Lato" style="color:#808080;font-size:100%;"> 
+		PathGeo is a Spinoff of a $1.3 million National Science Foundation grant to San Diego State University 
+		</font></a>
+
+	</div>
+
+
+</center>
+</div>
+
+
+<script type='text/javascript' src='https://www.pathgeo.com/wp-includes/js/admin-bar.min.js?ver=3.5.2'></script>
+<script type='text/javascript' src='https://www.pathgeo.com/wp-content/themes/responsive/core/js/responsive-scripts.js?ver=1.2.4'></script>
+	<script type="text/javascript">
+		(function() {
+			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+			request = true;
+
+			b[c] = b[c].replace( rcs, ' ' );
+			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+		}());
+	</script>
+			<div id="wpadminbar" class="nojq nojs" role="navigation">
+			<a class="screen-reader-shortcut" href="#wp-toolbar" tabindex="1">Skip to toolbar</a>
+			<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Top navigation toolbar." tabindex="0">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+		<li id="wp-admin-bar-wp-logo" class="menupop"><a class="ab-item"  aria-haspopup="true" href="https://www.pathgeo.com/wp-admin/about.php" title="About WordPress"><span class="ab-icon"></span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wp-logo-default" class="ab-submenu">
+		<li id="wp-admin-bar-about"><a class="ab-item"  href="https://www.pathgeo.com/wp-admin/about.php">About WordPress</a>		</li></ul><ul id="wp-admin-bar-wp-logo-external" class="ab-sub-secondary ab-submenu">
+		<li id="wp-admin-bar-wporg"><a class="ab-item"  href="http://wordpress.org/">WordPress.org</a>		</li>
+		<li id="wp-admin-bar-documentation"><a class="ab-item"  href="http://codex.wordpress.org/">Documentation</a>		</li>
+		<li id="wp-admin-bar-support-forums"><a class="ab-item"  href="http://wordpress.org/support/">Support Forums</a>		</li>
+		<li id="wp-admin-bar-feedback"><a class="ab-item"  href="http://wordpress.org/support/forum/requests-and-feedback">Feedback</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item"  aria-haspopup="true" href="https://www.pathgeo.com/wp-admin/">PathGeo</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-site-name-default" class="ab-submenu">
+		<li id="wp-admin-bar-dashboard"><a class="ab-item"  href="https://www.pathgeo.com/wp-admin/">Dashboard</a>		</li></ul><ul id="wp-admin-bar-appearance" class="ab-submenu">
+		<li id="wp-admin-bar-themes"><a class="ab-item"  href="https://www.pathgeo.com/wp-admin/themes.php">Themes</a>		</li>
+		<li id="wp-admin-bar-customize" class="hide-if-no-customize"><a class="ab-item"  href="https://www.pathgeo.com/wp-admin/customize.php?url=https%3A%2F%2Fwww.pathgeo.com%2F%3Fpage_id%3D33">Customize</a>		</li>
+		<li id="wp-admin-bar-widgets"><a class="ab-item"  href="https://www.pathgeo.com/wp-admin/widgets.php">Widgets</a>		</li>
+		<li id="wp-admin-bar-menus"><a class="ab-item"  href="https://www.pathgeo.com/wp-admin/nav-menus.php">Menus</a>		</li>
+		<li id="wp-admin-bar-background"><a class="ab-item"  href="https://www.pathgeo.com/wp-admin/themes.php?page=custom-background">Background</a>		</li>
+		<li id="wp-admin-bar-header"><a class="ab-item"  href="https://www.pathgeo.com/wp-admin/themes.php?page=custom-header">Header</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-comments"><a class="ab-item"  href="https://www.pathgeo.com/wp-admin/edit-comments.php" title="0 comments awaiting moderation"><span class="ab-icon"></span><span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0">0</span></a>		</li>
+		<li id="wp-admin-bar-new-content" class="menupop"><a class="ab-item"  aria-haspopup="true" href="https://www.pathgeo.com/wp-admin/post-new.php" title="Add New"><span class="ab-icon"></span><span class="ab-label">New</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-new-content-default" class="ab-submenu">
+		<li id="wp-admin-bar-new-post"><a class="ab-item"  href="https://www.pathgeo.com/wp-admin/post-new.php">Post</a>		</li>
+		<li id="wp-admin-bar-new-media"><a class="ab-item"  href="https://www.pathgeo.com/wp-admin/media-new.php">Media</a>		</li>
+		<li id="wp-admin-bar-new-page"><a class="ab-item"  href="https://www.pathgeo.com/wp-admin/post-new.php?post_type=page">Page</a>		</li>
+		<li id="wp-admin-bar-new-user"><a class="ab-item"  href="https://www.pathgeo.com/wp-admin/user-new.php">User</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-edit"><a class="ab-item"  href="https://www.pathgeo.com/wp-admin/post.php?post=33&#038;action=edit">Edit Page</a>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+		<li id="wp-admin-bar-search" class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1"><form action="https://www.pathgeo.com/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150" /><input type="submit" class="adminbar-button" value="Search"/></form></div>		</li>
+		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item"  aria-haspopup="true" href="https://www.pathgeo.com/wp-admin/profile.php" title="My Account">Howdy, suhan<img alt='' src='https://secure.gravatar.com/avatar/7d83d59eed8273ba5f1ca1effd3499d7?s=16&amp;d=blank&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' /></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class="ab-submenu">
+		<li id="wp-admin-bar-user-info"><a class="ab-item" tabindex="-1" href="https://www.pathgeo.com/wp-admin/profile.php"><img alt='' src='https://secure.gravatar.com/avatar/7d83d59eed8273ba5f1ca1effd3499d7?s=64&amp;d=blank&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' /><span class='display-name'>suhan</span></a>		</li>
+		<li id="wp-admin-bar-edit-profile"><a class="ab-item"  href="https://www.pathgeo.com/wp-admin/profile.php">Edit My Profile</a>		</li>
+		<li id="wp-admin-bar-logout"><a class="ab-item"  href="https://www.pathgeo.com/wp-login.php?action=logout&#038;_wpnonce=4a920e75de">Log Out</a>		</li></ul></div>		</li></ul>			</div>
+						<a class="screen-reader-shortcut" href="https://www.pathgeo.com/wp-login.php?action=logout&#038;_wpnonce=4a920e75de">Log Out</a>
+					</div>
+
+		</body>
+</html>

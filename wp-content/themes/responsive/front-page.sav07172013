@@ -1,0 +1,214 @@
+<?php
+
+// Exit if accessed directly
+if ( !defined('ABSPATH')) exit;
+
+/**
+ * Site Front Page
+ *
+ * Note: You can overwrite front-page.php as well as any other Template in Child Theme.
+ * Create the same file (name) include in /responsive-child-theme/ and you're all set to go!
+ * @see            http://codex.wordpress.org/Child_Themes and
+ *                 http://themeid.com/forum/topic/505/child-theme-example/
+ *
+ * @file           front-page.php
+ * @package        Responsive 
+ * @author         Emil Uzelac 
+ * @copyright      2003 - 2013 ThemeID
+ * @license        license.txt
+ * @version        Release: 1.0
+ * @filesource     wp-content/themes/responsive/front-page.php
+ * @link           http://codex.wordpress.org/Template_Hierarchy
+ * @since          available since Release 1.0
+ */
+
+/**
+ * Globalize Theme Options
+ */
+$responsive_options = responsive_get_options();
+/**
+ * If front page is set to display the
+ * blog posts index, include home.php;
+ * otherwise, display static front page
+ * content
+ */
+if ( 'posts' == get_option( 'show_on_front' ) && $responsive_options['front_page'] != 1 ) {
+	get_template_part( 'home' );
+} elseif ( 'page' == get_option( 'show_on_front' ) && $responsive_options['front_page'] != 1 ) {
+	$template = get_post_meta( get_option( 'page_on_front' ), '_wp_page_template', true );
+	$template = ( $template == 'default' ) ? 'index.php' : $template;
+	locate_template( $template, true );
+} else { 
+
+	get_header();
+	
+	//test for first install no database
+	$db = get_option( 'responsive_theme_options' );
+    //test if all options are empty so we can display default text if they are
+    $empty = ( empty( $responsive_options['home_headline'] ) && empty( $responsive_options['home_subheadline'] ) && empty( $responsive_options['home_content_area'] ) ) ? false : true;
+	?>
+
+	
+<!-- begining of #featured -->
+
+<div class="first_page">
+
+	<center>
+    
+    <div id="main_slide" style="width:1160px;height:600px;font-family:sans-serif;font-size:150%;">
+    	
+		
+
+		<div id="main_slide_container" style="width:1160px;height:600px;">
+		
+			<div id="main_slide_space" style="height:40px;">
+			</div>
+		
+			<div id="image" style="height:400px;width:650px;float:left;">
+				<a href="http://vision.sdsu.edu/wordpress/" ><img src = "http://vision.sdsu.edu/su42/images/earth2.jpg" alt="logo" border="0" style = "margin:0px 0px 0px 0px;width:650px;height:500px;float:left;" /></a>
+
+			</div>
+		
+			<div id="main_slide_right" style="height:400px;width:500px;float:left;">
+
+				<div id="main_title" style="height:300px;width:600px;float:left;">
+				
+					<font color="#505050 " style="font-family:sans-serif;font-size:150%;margin:0px;text-align:left;float:left;">			
+						Providing Geo-targeting, Real-Time </br></br>
+						& Impact Detection Tools.
+					</font>	
+					</br></br>
+					<font color="#505050 " style="font-family:sans-serif;font-size:100%;margin:0px;text-align:right;float:right;">			
+						</br></br>Map your Customers to drive Business Decisions.
+						<a href="http://demo.pathgeo.com/">
+						<div class="large blue awesome">
+							<font style="font-family:sans-serif;font-size:150%;margin:0px;text-align:right;float:right;">
+							
+								View Demo &raquo;
+								
+							</font>
+						</div> 
+						</a>					
+					</font>	
+				</div>
+			
+			</div>
+
+		
+		</div>
+		
+		
+			
+	</div>
+		
+	<div id="middle_panel" style="width:975px;height:350px;">
+		
+    
+    
+    
+    
+    
+    	<div id="title_m1" style="background-color:#FF6600;height:10px;width:960px;font-family:sans-serif;font-size:120%;"></div>
+    	<div id="title_m" style="background-color:#FF6600;height:30px;width:960px;font-family:sans-serif;font-size:150%;">
+    		
+    		<font color="ffffff ">Isn't it time you used the Products that pave the path to better Business Decisions?</font>
+    		
+    	</div>
+    	<div id="title_m3" style="height:20px;font-family:sans-serif;font-size:120%;"></div>
+    
+    	<div id="middle_L" style="background-color:#ffffff;height:200px;width:470px;float:left">
+    		<div id="middle_L_space" style="background-color:#ffffff;height:10px;width:400px;"></div>
+    		<font color="FF6600 " style="font-family:sans-serif;font-size:140%;float:left;">			
+    			&nbsp;&nbsp;&nbsp;
+    			Map Time
+    		</font>
+    		<br/>
+    		<div id="middle_L_space" style="background-color:#ffffff;height:20px;width:400px;"></div>
+    		<font color="404040  " style="font-family:sans-serif;font-size:100%;float:left;margin:10px 20px 10px 20px;text-align:left;">			
+    			A Product that allows you to Lorem ipsum dolor sit amet adipiscing consuetir color shemdir sert.
+    		</font>	
+    		<br/>
+    		<div id="middle_L_space" style="background-color:#ffffff;height:20px;width:400px;"></div>
+    		<font color="3399FF  " style="font-family:sans-serif;font-size:100%;float:right;margin:30px;">			
+    			Learn More >
+    		</font>			
+    	</div>
+    	
+    
+    	
+    	<div id="middle_m" style="height:200px;width:20px;float:left;"></div>	
+    
+    	<div id="middle_R" style="background-color:#ffffff;height:200px;width:470px;float:left;">
+    		<div id="middle_L_space" style="background-color:#ffffff;height:10px;width:400px;"></div>
+    		<font color="FF6600 " style="font-family:sans-serif;font-size:140%;float:left;">
+    			
+    			&nbsp;&nbsp;&nbsp;
+    			Social Time
+    		</font>
+    		<br/>
+    		<div id="middle_L_space" style="background-color:#ffffff;height:20px;width:400px;"></div>
+    		<font color="404040  " style="font-family:sans-serif;font-size:100%;float:left;margin:10px 20px 10px 20px;text-align:left;">			
+    			A Product that allows you to Lorem ipsum dolor sit amet adipiscing consuetir color shemdir sert.
+    		</font>
+    		<br/>
+    		<div id="middle_L_space" style="background-color:#ffffff;height:20px;width:400px;"></div>
+    		<font color="3399FF  " style="font-family:sans-serif;font-size:100%;float:right;margin:30px;">			
+    			Learn More >
+    		</font>			
+    	</div>
+    	
+    	<div id="middle_space" style="clear:both;text-align:center;height:20px;"></div>		
+    	
+    
+    
+    	<div id="middle_B_L" style="background-color:#ffffff;height:200px;width:305px;float:left">
+    		<div id="middle_B_L_top" style="background-color:#909090;height:80px;width:305px;">
+    			<font color="ffffff  " style="font-family:sans-serif;font-size:120%;float:left;margin:10px 20px 10px 20px;text-align:left;">
+    			    Businesses around the world use PathGeo.
+    			</font>
+    		</div>
+    		<br/>
+    		<font color="404040  " style="font-family:sans-serif;font-size:100%;float:left;margin:10px;">			
+    			A Product that allows you to Lorem ipsum dolor sit amet adipiscing consuetir color shemdir sert.
+    		</font>			
+    	</div>
+    	
+    	<div id="middle_B_L_space" style="height:200px;width:20px;float:left;"></div>	
+    
+    	<div id="middle_B_M" style="background-color:#ffffff;height:200px;width:305px;float:left;">
+    		<div id="middle_B_M_top" style="background-color:#909090;height:80px;width:305px;">
+    			<font color="ffffff  " style="font-family:sans-serif;font-size:120%;float:left;margin:10px 20px 10px 20px;text-align:left;">
+    			    What's all the Buzz about Social Analytics Anyways?
+    			</font>
+    		</div>
+    		<br/>
+    		<font color="404040  " style="font-family:sans-serif;font-size:100%;float:left;margin:10px;">			
+    			Most Recent Blog Post Title Goes here
+    		</font>			
+    	</div>	
+    
+    	<div id="middle_B_M_space" style="height:200px;width:20px;float:left;"></div>	
+    
+    	<div id="middle_B_R" style="background-color:#ffffff;height:200px;width:305px;float:left;">
+    		<div id="middle_B_R_top" style="background-color:#909090;height:80px;width:305px;">
+    			<font color="ffffff  " style="font-family:sans-serif;font-size:120%;float:left;margin:10px 20px 10px 20px;text-align:left;">
+    			    Need Something Custom? In-Depth Analytics? We can help!
+    			</font>
+    		</div>
+    		<br/>
+    		<font color="404040  " style="font-family:sans-serif;font-size:100%;float:left;margin:10px;">			
+    			Learn about our Geo-Targeting API's $ Social Media Analytics
+    		</font>			
+    	</div>	
+    
+    </div>
+</div>   
+
+	
+<!-- end of #featured -->
+               
+	<?php 
+	get_sidebar('home');
+	get_footer(); 
+}
+?>
