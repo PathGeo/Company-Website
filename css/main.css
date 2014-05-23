@@ -1,6 +1,20 @@
 #nav_logo {width:110px;position:relative; top:6px; }
 
-#logo {margin-top:130px; }
+
+#logo {margin-top:0px; }
 
 .wrapper {position:relative; width:100%; }
+
+#top * {z-index:10;}
 #top_background{position:absolute; z-index:0; bottom:0px; right:0px; width:40%;}
+
+
+#features section.box {height:auto; }
+.box p {text-align:justify; }
+
+
+#solutions article.box img {box-shadow:0px 3px 5px #cccccc; width:99%; margin:0 auto; }
+
+#services article.box img {width:40%; margin:0 auto; }
+
+#team article.box img {width:60%; margin:0 auto;  border-radius:100%;}
