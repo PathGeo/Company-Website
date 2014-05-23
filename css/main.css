@@ -7,7 +7,7 @@
 
 #top * {z-index:10;}
 #top_background{position:absolute; z-index:0; bottom:0px; right:0px; width:40%;}
-
+#top .me {border-radius:0%;}
 
 #features section.box {height:auto; }
 .box p {text-align:justify; }
@@ -18,3 +18,5 @@
 #services article.box img {width:40%; margin:0 auto; }
 
 #team article.box img {width:60%; margin:0 auto;  border-radius:100%;}
+
+
