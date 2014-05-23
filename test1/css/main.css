@@ -1,0 +1,11 @@
+#header > h1 img {width:35%}
+
+#nav > ul > li {font-size:110%;}
+
+#banner-image {width:50%; float:right;  }
+#banner header {left:30%; top:60%; background-color:transparent; color:#444444; }
+#banner header span {text-align:left; font-size:120%;}
+
+.box img {height:190px; }
+
+.aboutus > a img {width:70%;}
