@@ -11,11 +11,12 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" />
+		<link rel="stylesheet" media="screen" href="css/sequencejs-theme.apple-style.css" />
 		
 		<script src="js/jquery.min.js"></script>
 		<script src="js/config.js"></script>
 		<script src="js/skel.min.js"></script>
-		<script src='js/jquery.slides.min.js'></script>
+		<script src='js/jquery.sequence-min.js'></script>
 		<script src="js/main.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
@@ -46,6 +47,7 @@
 		<!-- Home -->
 			<div class="wrapper wrapper-style1 wrapper-first">
 				<article class="container" id="top">
+					<!--
 					<div class="row">
 						<div class="4u">
 							<span class="me image image-full"><img src="images/ElectionPath-globe-img.png" alt="" id='logo' /></span>
@@ -54,29 +56,62 @@
 							<header>
 								<h1>We are <strong>PathGeo</strong>.</h1>
 							</header>
-							<p>Providing Geo-targeting, Real-Time & Impact Detection Tools.</p>
-							<a href="#features" class="button button-big">See Pathgeo's features</a>
+							<p>Providing geointelligence and location-based knowledge solutions with geotargeted social media APIs and web tools to monitor mobile social web.</p>
+							<a href="#features" class="button button-big">See Pathgeo's features</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#contact" class="button button-big">Contact us</a>
 						</div>
 					</div>
+					-->
 					
 					<!--slide-->
-					<!--
 					<div class='row'>
 						<div  class='12u'>
 							
-							<div id='slides'>
-								<img src='images/example-slide-1.jpg'/>
-								<img src='images/example-slide-2.jpg'/>
-								<img src='images/example-slide-3.jpg'/>
-								<img src='images/example-slide-4.jpg'/>
-								<img src='images/example-slide-5.jpg'/>
-								<img src='images/example-slide-6.jpg'/>
+							<div id="sequence-theme">
+								<div id="sequence">
+					
+									<ul class="controls">
+										<li class="status"></li>
+										<li class="sequence-prev"></li>
+										<li class="sequence-pause"></li>
+										<li class="sequence-next"></li>
+									</ul>
+					
+									<ul class="sequence-canvas">
+										<li class="animate-in">
+											<div class="intro">
+												<h1>We are <strong>PathGeo</strong>.</h1>
+												<p>Providing geointelligence and location-based knowledge solutions with geotargeted social media APIs and web tools to monitor mobile social web.</p>
+												<a href="#features"  class="button button-big">See Pathgeo's features</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#contact" class="button button-big">Contact us</a>
+											</div>
+											<img class="intro-logo" src="images/ElectionPath-globe-img.png" alt="pathgeo" />
+										</li>
+										<li>
+											
+											<div class="slide-electionpath">
+												<h2>ElectionPath</h2>
+												<p>Successfully Predicted San Diego Mayoral Special Election on Nov. 19th, 2013.</p>
+												<a href="https://www.pathgeo.com/electionpath" target='_blank' class="button button-big">Get Started</a>
+											</div>
+											<iframe class='slide-electionpath-video' style="background-color:#EEEEEE;height:400px;width:50%;float:left;" frameborder="0" allowfullscreen="1" title="YouTube video player" width="640" height="390" src="https://www.youtube.com/embed/TgzfhV_ZFJ4?enablejsapi=1&amp;origin=https%3A%2F%2Fpathgeo.com"></iframe>
+											<img class="ipad-shadow" src="images/ipad-shadow.png" />
+										</li>
+										<li>
+											<div class="slide-maptime">
+												<h2>MapTime</h2>
+												<p>MapTime can help you analyze customer needs, target marketing actions, and secure more customers. Watch the tutorial to see how businesses like yours can visually map your customers!</p>
+												<a href="https://www.pathgeo.com/maptime" target='_blank' class="button button-big">Demo MapTime for FREE</a>
+											</div>
+											<iframe class='slide-maptime-video' src="https://www.youtube.com/embed/qDpkRwf2py0" frameborder="0" allowfullscreen="" id="fitvid996581"></iframe>
+											<img class="slide-maptime-video-shadow" src="images/ipad-shadow.png" />
+										</li>
+									</ul>
+					
+								</div>
 							</div>
-							
 						</div>
 						
 					</div>
-					-->
+					
 				</article>
 				
 			</div>
@@ -94,7 +129,7 @@
 								<section class="box box-style1">
 									<span class="fa featured fa-comments-o"></span>
 									<h3>Social Media</h3>
-									<p>We provide much cleaner and focused social media data (filter out unrelated noises and errors) with regional focus.</p>
+									<p>We target on Twitter, Faccebook, Youtube, Flickr, Google plus, and other popular social media to provide much cleaner and focused social media data (filter out unrelated noises and errors) with regional focus.</p>
 								</section>
 							</div>
 							<div class="4u">
@@ -107,8 +142,8 @@
 							<div class="4u">
 								<section class="box box-style1">
 									<span class="fa featured fa-thumbs-o-up"></span>
-									<h3>Location Knowledge</h3>
-									<p>Our location-based technologies can enable deeper understanding about the locational differences of your marketing efforts and campaign impacts.</p>
+									<h3>Location-based Knowledge</h3>
+									<p>Our location-based knowledge can enable deeper understanding about the locational differences of your marketing efforts and campaign impacts.</p>
 								</section>
 							</div>
 						</div>
@@ -135,25 +170,25 @@
 						<div class="row">
 							<div class="4u">
 								<article class="box box-style2">
-									<a href="https://www.pathgeo.com/electionpath" class="image image-full" target='_blank'><img src="images/solution_electionpath.png" alt="" /></a>
-									<h3><a href="http://flypixel.com/generic-smartphone/8949517882265310">ElectionPath</a></h3>
-									<p>ElectionPath can provide insights and assessment for your campaign activities with measurable outcomes.</p>
+									<a href="https://www.pathgeo.com/electionpath" class="image image-full" target='_blank'><img src="images/solution_electionpath_2.png" alt="" /></a>
+									<h3><a href="https://www.pathgeo.com/electionpath">ElectionPath</a></h3>
+									<p>ElectionPath can provide social media insights and assessment for your campaign activities with measurable outcomes.</p>
 									<a href="https://www.pathgeo.com/electionpath" target='_blank' class="button button-small">show more</a>
 								</article>
 							</div>
 							<div class="4u">
 								<article class="box box-style2">
-									<a href="http://flypixel.com/n33" class="image image-full" target='_blank'><img src="images/portfolio02.jpg" alt="" /></a>
-									<h3><a href="http://flypixel.com/n33">CityBuddy</a></h3>
-									<p>CityBuddy can search HOT events nearby your locations and ranked by social media.</p>
-									<a href="https://www.pathgeo.com/hotevent" target='_blank' class="button button-small">show more</a>
+									<a href="https://www.pathgeo.com/citybuddy" class="image image-full" target='_blank'><img src="images/solution_citybuddy.png" alt="" /></a>
+									<h3><a href="https://www.pathgeo.com/citybuddy">CityBuddy</a></h3>
+									<p> A Mobile App tells you dynamic HOT event updates, pictures, and reviews by crowd-sourcing social media and web contents.</p>
+									<a href="https://www.pathgeo.com/citybuddy" target='_blank' class="button button-small">show more</a>
 								</article>
 							</div>
 							<div class="4u">
 								<article class="box box-style2">
-									<a href="https://www.pathgeo.com/wildfire" class="image image-full"><img src="images/solution_wildfire.png" alt="" /></a>
+									<a href="https://www.pathgeo.com/wildfire" class="image image-full"><img src="images/solution_wildfire_1.png" alt="" /></a>
 									<h3><a href="http://flypixel.com/wood-ui-kit/3574765984616310">Wildfire</a></h3>
-									<p>Wildfire monitors wildfires in San Diego since May, 2014.</p>
+									<p>Pathgeo keeps tracking and monitoring the voices, photos, and videos from social media for 2014 San Diego Wildfires.</p>
 									<a href="https://www.pathgeo.com/wildfire" target='_blank' class="button button-small">show more</a>
 								</article>
 							</div>
@@ -262,7 +297,7 @@
 								<article class="box box-style2">
 									<a href="" class="image image-full"><img src="images/team/Ming.png" alt="" /></a>
 									<h3>Dr. Ming-Hsiang Tsou (CEO)</h3>
-									<p>Dr. Ming-Hsiang Tsou is the Co-Founder and CEO of PathGeo Inc.  As a Professor of Geography at San Diego State University, Ming is an international expert in Web GIS, Internet Mapping, Mobile GIS, Big Data, and Social Media. He is co-author of the book, Internet GIS and served on the editorial boards of the Annals of GIS (2008- 2013) and the Professional Geographers (2011- Present). In 2010, Tsou served as the Principle Investigator (PI) of a NSF-CDI project,” Mapping ideas from Cyberspace to Realspace”, $1.3 million funded by National Science Foundation, CDI-Type II Award # 1028177 (2010-2014). http://mappingideas.sdsu.edu/.Tsou also received the 2004 and 2010 Outstanding Faculty Award, and 2012 The President’s Leadership Fund (PLF) Faculty and Staff Awards for Excellence.</p>
+									<p>Dr. Ming-Hsiang Tsou is the Co-Founder and CEO of PathGeo Inc.  As a Professor of Geography at San Diego State University, Ming is an international expert in Web GIS, Internet Mapping, Mobile GIS, Big Data, and Social Media. </p>
 								</article>
 								
 							</div>
@@ -270,17 +305,14 @@
 								<article class="box box-style2">
 									<a href="" class="image image-full"><img src="images/team/Calvin.png" alt="" /></a>
 									<h3>Dr. Chin-Te Jung <br>(CTO)</h3>
-									<p>Dr. Chin-Te (Calvin) Jung is the chief GIS developer of PathGeo Inc. He received Ph.D. degree in geography from National Taiwan University in 2012. Calvin mainly takes charge of:
-designing main system framework and flowchart of PathGeo’s products
-leading and cooperating developers
-using API and GIS Web services with jQuery, python, and MongoDB to implement the products.</p>
+									<p>Dr. Chin-Te (Calvin) Jung is the chief GIS developer of PathGeo Inc who takes charge of: 1) designing main system framework and flowchart; 2) leading and cooperating developers; 3) using state of art technologies to implement the products.</p>
 								</article>
 							</div>
 							<div class="4u">
 								<article class="box box-style2">
 									<a href="" class="image image-full"><img src="images/team/Chris.jpg" alt="" /></a>
 									<h3>Chris Allen</h3>
-									<p>Chris is a Ph.D. student in geography at San Diego State, and his interests include social media, web mapping, and historical GIS. He has a background in computer science and worked as a software engineer for several years in the aerospace industry. As part of the alpha team at PathGeo, Chris’s strengths are server-side programming, database management and data collection.</p>
+									<p><br>Chris is a Ph.D. student in geography at San Diego State, and his interests include social media, web mapping, and historical GIS. As part of PathGeo's team, Chris’s strengths are server-side programming, database management and data collection.</p>
 								</article>
 							</div>
 						</div>
@@ -289,21 +321,21 @@ using API and GIS Web services with jQuery, python, and MongoDB to implement the
 								<article class="box box-style2">
 									<a href="" class="image image-full"><img src="images/team/yuan.jpg" alt="" /></a>
 									<h3>Dr. Chih-Yuan Chen</h3>
-									<p>Dr. Chih-Yuan Chen finished his Ph.D. program at National Taiwan University in 2011. Before he joined the PathGeo, he was a research fellow in the National University of Singapore(NUS). His research interests fall under the knowledge discovery framework for geographical database with focus on geo-visualization and neural network. He is also interested in theoretical theme of cyberinfrastructure and geographic information science. Current topics of interest include spatial ontology, spatial provenance, semantic web, and social network analysis.</p>
+									<p><br>Dr. Chih-Yuan Chen finished his Ph.D. program at National Taiwan University in 2011. His research interests fall under the knowledge discovery framework for geographical database with focus on geo-visualization and neural network. He is also interested in theoretical theme of cyberinfrastructure and geographic information science. </p>
 								</article>
 							</div>
 							<div class="4u">
 								<article class="box box-style2">
 									<a href="http://flypixel.com/n33" class="image image-full"><img src="images/team/Jim.jpg" alt="" /></a>
 									<h3>Jim Bates<br>(Senior Political Advisor)</h3>
-									<p>Former Congressman Jim Bates joins PathGeo with a wealth of political experience. As the Senior Political Advisor for PathGeo he has served in elective office as a United States Congressman, San Diego County Supervisor, and San Diego City Councilman. He understands the requirements necessary for winning campaigns and elections. Born in Denver, Colorado in 1941, he started working on a farm in Mankato, Kansas at 14, then serving with distinction in the United States Marine Corps. He attended college at night, while working during the day as a Loan Officer for Bank of America. Jim graduated from San Diego State University. Jim Bates is well prepared to advise PathGeo.</p>
+									<p>Former Congressman Jim Bates joins PathGeo with a wealth of political experience. As the Senior Political Advisor for PathGeo he has served in elective office as a United States Congressman, San Diego County Supervisor, and San Diego City Councilman. He understands the requirements necessary for winning campaigns and elections. </p>
 								</article>
 							</div>
 							<div class="4u">
 								<article class="box box-style2">
 									<a href="" class="image image-full"><img src="images/team/john.jpg" alt="" /></a>
 									<h3>John Hong<br>(Senior Technical Advisor)</h3>
-									<p>John Hong is a Senior Technical Advisor at PathGeo, focused on the ElectionPath Application, and is also a Systems Engineer for the U.S. Department of the Navy. His interest include social media, current affairs, data analytics, cloud computing, and computer programming. John holds a Bachelors degree in Electrical Engineering from Marquette University and formerly a researcher for the University of Chicago / Argonne National Laboratory.</p>
+									<p>John Hong is a Senior Technical Advisor at PathGeo, focused on the ElectionPath Application, and is also a Systems Engineer for the U.S. Department of the Navy. His interest include social media, current affairs, data analytics, cloud computing, and computer programming. </p>
 								</article>
 							</div>
 						</div>
@@ -312,7 +344,7 @@ using API and GIS Web services with jQuery, python, and MongoDB to implement the
 								<article class="box box-style2">
 									<a href="" class="image image-full"><img src="images/team/Su.png" alt="" /></a>
 									<h3>Su Yeon Han</h3>
-									<p>Su is a doctoral student in the joint doctoral program in Geography, San Diego State University and University of California, Santa Barbara. She majored in geography and minored in computer science at University of North Carolina, Chapel Hill for Bachelors degree, and received M.S. in department of geography and geographic information science at University of Illinois at Urbana-Champaign (UIUC). Su’s strengths are Web GIS programming, cluster (hotspot) analysis, and geo-visualizations.</p>
+									<p>Su is a doctoral student in the joint doctoral program in Geography, San Diego State University and University of California, Santa Barbara. Su’s strengths are Web GIS programming, cluster (hotspot) analysis, and geo-visualizations.</p>
 								</article>
 							</div>
 						</div>
