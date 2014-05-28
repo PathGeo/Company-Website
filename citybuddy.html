@@ -6,14 +6,16 @@
 -->
 <html>
 	<head>
-		<title>MapTime | PathGeo</title>
+		<title>CityBuddy | PathGeo</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" />
+		<link href="css/font.css" rel="stylesheet" />
 		<link rel="stylesheet" media="screen" href="css/sequencejs-theme.apple-style.css" />
 		
+		
 		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.popupoverlay.js"></script>
 		<script src="js/config.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src='js/jquery.sequence-min.js'></script>
@@ -36,13 +38,13 @@
 		<!-- Nav -->
 			<nav id="nav">
 				<ul class="container">
-					<li class='productName'><a href="#top">MapTime</a></li>
+					<li class='productName'><a href="#top">CityBuddy</a></li>
 					<li><a href="#features">Features</a></li>
-					<li><a href="#usecases">Use cases</a></li>
-					<li><a href="#pricing">Pricing</a></li>
+					<li><a href="#scenario">Scenario</a></li>
+					<!--<li><a href="#pricing">Pricing</a></li>-->
 					<li><a href="#trial">Free Trial</a></li>
 					<li><a href="#contact">Contact</a></li>
-					<li><a href="index.html">PathGeo<!--<img src='images/PathGeo-color.png' id='nav_logo'/>--></a></li>
+					<li><a href="index.html"><img src='images/PathGeo-color.png' id='nav_logo'/></a></li>
 				</ul>
 			</nav>
 
@@ -55,10 +57,10 @@
 						</div>
 						<div class="7u">
 							<header>
-								<h1><strong>MapTime</strong></h1>
+								<h1><strong>CityBuddy</strong></h1>
 							</header>
-							<p>A Web tool allows you to geocode & geo-analyze your data (with street addresses) into maps.</p>
-							<a href="#features" class="button button-big">See Features</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://www.pathgeo.com/maptime" class="button button-big">Get Started</a>
+							<p>A Mobile App tells you dynamic HOT event updates, pictures, and reviews by crowd-sourcing social media and web contents.</p>
+							<a href="#features" class="button button-big">See Features</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#contact" class="button button-big">Request a Demo</a>
 						</div>
 					</div>
 					
@@ -67,56 +69,56 @@
 			</div>
 
 		<!-- Work -->
-			<div class="wrapper wrapper-style2">
+			<div class="wrapper wrapper-style2" id="citybuddy-features">
 				<article id="features">
 					<header>
-						<h2>MapTime Features</h2>
-						<span></span>
+						<h2>CityBuddy Features</h2>
+						<span>CityBuddy uses crowd-sourcing and spatial-intelligence technology to collect and analyze social media (Twitter, YouTube, and Facebook) and web contents about the hot events nearby users’ locations with our patent-pending ranking algorithm for hot events. CityBuddy can provide actionable consumer intelligence with the following features</span>
 					</header>
 					<div class="container">
 						<div class="row">
 							<div class="4u">
 								<section class="box box-style1">
 									<span class="fa featured fa-comments-o">
-										<img src='images/maptime/example-slide-2.jpg'/>
+										<img src='images/citybuddy/1401250785_Time_machine.png'/>
 									</span>
-									<h3>From Spreadsheet to Map</h3>
-									<p>MapTime provides fast and reliable geocoding service to map your data in various format, such as xls or csv. </p>
+									<h3>Dynamic Updating Event Information</h3>
+									<p>with pictures and comments from social media.</p>
 								</section>
 							</div>
 							<div class="4u">
 								<section class="box box-style1">
 									<span class="fa featured fa-file-o">
-										<img src='images/maptime/example-slide-3.jpg'/>
+										<img src='images/citybuddy/1401250739_Doghouse.png'/>
 									</span>
-									<h3>Multiple Visulization</h3>
-									<p>MapTime provides multiple visualizations, such as marker map, cluster map, and hotspot map, for you to choose and visulize your data. </p>
+									<h3>Location-based Search </h3>
+									<p>using users’ current GPS location or selecting a city or a place </p>
 								</section>
 							</div>
 							<div class="4u">
 								<section class="box box-style1">
 									<span class="fa featured fa-thumbs-o-up">
-										<img src='images/maptime/example-slide-4.jpg'/>
+										<img src='images/citybuddy/1401250805_Medal.png'/>
 									</span>
-									<h3>Download your data with coordinates</h3>
-									<p>Just one click to download your data with latitude and longitude coordinates.</p>
+									<h3>Popular Ranking </h3>
+									<p>Real-time ranking events from social media</p>
 								</section>
 							</div>
 						</div>
 					</div>
 					<footer>
-						<p></p>
-						<a href="https://www.pathgeo.com/maptime" class="button button-big">Can't wait to try MapTime?</a>
+						<p>How CityBuddy can find HOT events?</p>
+						<a href="#scenario" class="button button-big">See answers</a>
 					</footer>
 				</article>
 			</div>
 
 		<!-- Portfolio -->
-			<div class="wrapper wrapper-style3">
-				<article id="usecases">
+			<div class="wrapper wrapper-style3" id='citybuddy_scenario'>
+				<article id="scenario">
 					<header>
-						<h2>So How can I use MapTime for my work/research/business?</h2>
-						<span></span>
+						<h2>Where are HOT events near me?</h2>
+						<span>When people search multiple web sites and multiple social media channels to get relevant event information (conferences, sports games, music concerts), they need to know which events are popular and nearby their locations. User need to get the most updated event information with reviews, comments, pictures, and videos to help them make decisions about going to the event or know more about the event. </span>
 					</header>
 					<div class="container">
 						<div class="row">
@@ -126,25 +128,25 @@
 						<div class="row">
 							<div class="4u">
 								<article class="box box-style2">
-									<a href="#" class="image image-full" target='_blank'><img src="images/maptime/featured02.png" alt="" /></a>
-									<h3><a href="#">Churches in San Diego</a></h3>
-									<p>MapTime uses the survey data from religious studies department, SDSU, to show churches hotspot map in San Diego.</p>
+									<a href="#" class="image image-full" ><img src="images/citybuddy/New Intro.png" alt="" /></a>
+									<h3><a href="#">Browse Hot events</a></h3>
+									<p>People can browse hot events in a week, nearby their locations, or search by keywords.</p>
 									
 								</article>
 							</div>
 							<div class="4u">
 								<article class="box box-style2">
-									<a href="https://www.pathgeo.com/citybuddy" class="image image-full" target='_blank'><img src="images/maptime/featured01.png" alt="" /></a>
-									<h3><a href="#">Hotels in San Diego</a></h3>
-									<p>MapTime maps 540 hotels in San Diego to show their locations and hotspot map.</p>
+									<a href="#" class="image image-full" ><img src="images/citybuddy/Detail.png" alt="" /></a>
+									<h3><a href="#">Search Result</a></h3>
+									<p>CityBuddy ranks each events and collect relevant photos, videos, and comments from social media, including Facebook and Twitter</p>
 									
 								</article>
 							</div>
 							<div class="4u">
 								<article class="box box-style2">
-									<a href="https://www.pathgeo.com/wildfire" class="image image-full"><img src="images/maptime/featured03.png" alt="" /></a>
-									<h3><a href="#">Restaurants in San Diego</a></h3>
-									<p>Mapping 5273 restaurants in San Diego is not a problem for MapTime.</p>
+									<a href="https://www.pathgeo.com/wildfire" class="image image-full"><img src="images/citybuddy/Whats Hot Now.png" alt="" /></a>
+									<h3><a href="#">Hot Spot Map</a></h3>
+									<p>People can switch to Map view to see the hot spots where people are discussing right now about events.</p>
 									
 								</article>
 							</div>
@@ -152,118 +154,30 @@
 						
 					</div>
 					<footer>
-						<p>Get Started to use MapTime for Free</p>
-						<a href="https://www.pathgeo.com/maptime" class="button button-big">MapTime now!</a>
+						<p>Can't wait to use CityBuddy!</p>
+						<a href="#contact" class="button button-big">Request a Demo now!</a>
 					</footer>
 				</article>
 			</div>
 
 
-		<!-- service -->
+
+			<!--trial-->
 			<div class="wrapper wrapper-style3">
-				<article id="pricing">
+				<article id="trial">
 					<header>
-						<h2>Our professional services: Social Media Analytic Consulting Services</h2>
-						<span>A real-time web-based social media geo-search tool that allows users to retrieve social media feedbacks.</span>
+						<h2>Free Trial</h2>
+						<span>Coming soon....</span>
+						
 					</header>
 					<div class="container">
 						<div class="row">
 							<div class="12u">
-								<div id="PLANS_R">
-				                    <style type="text/css">
-				                    table.tftable {font-size:12px;color:#333333;width:100%;border-width: 1px;border-color:#C0C0C0;border-collapse: collapse;}
-				                    table.tftable th {font-size:12px;background-color:#66CC66;border-width: 1px;padding: 8px;border-style: solid;border-color:#66CC66;text-align:left;}
-				                    table.tftable tr {background-color:#F0F0F0;}
-				                    table.tftable td {color:#707070;font-weight:normal;font-size:14px;border-width: 1px;padding:30px 10px 30px 10px;border-style: solid;border-color: #C0C0C0;}
-				                    #grey {background-color:#E0E0E0;}
-				                    </style>
-				                    
-					
-				                    <table id="tfhover" class="tftable" border="1">
-									<tbody><tr><th><font color="ffffff" style="font-family:Lato;font-size:230%;float:left;margin:0px;text-align:left;font-weight:normal;">MapTime </font></th>
-									<th><font color="ffffff" style="font-family:Lato;font-size:230%;float:left;margin:0px;text-align:left;font-weight:normal;"></font></th>
-									<th><font color="ffffff" style="font-family:Lato;font-size:230%;float:left;margin:0px;text-align:left;font-weight:normal;text-align:center;">Pricing &nbsp;&nbsp;&nbsp; Plans</font></th><th></th></tr>
-				                    <tr><td id="grey" style="width:150px;">
-										<center><font color="#707070" style="font-family:Lato;font-size:180%;">Features</font></center></td>
-									    <td id="grey"><center><font color="006633" style="font-family:Lato;font-size:180%;">FREE</font></center></td>
-										<td id="grey"><center><font color="33CCFF" style="font-family:Lato;font-size:180%;">PLUS</font></center></td>
-										<td id="grey"><center><font color="FF6633" style="font-family:Lato;font-size:180%;">PRO</font></center></td>
-									</tr>
-				                    <tr><td id="grey" style="font-size:120%;"><center>User Credit</center></td><td style="width:200px;"><center>1,500 credit / Month
-										* No carry over to next Month</center></td><td><center>
-										<ul><li>$5 = 500 credit / Month</li>
-										<li>$10 = 3,500 credit / Month</li>
-										<li>$20 = 8,000 credit / Month</li>
-										<li>$30 = 12,000 credit / Month</li></ul>
-										* Monthly remain credits can carry over six months since each new purchase</center></td><td><center>$89 per Month = 40,000 credit / Month * Remain credits cannot carry over to next month.</center></td></tr>
-										                    <tr><td id="grey" style="font-size:120%;"><center> </center></td><td colspan="3" class="3widetd" style="padding:0 10!important"><center>1 credit = 1 address geocoding record = 10 latitude/longitude records
-										
-										Mapping Lat/Long (10 records = one credit):
-										One credit can map TEN (10) records of data containing Latitude/longitude information. (Each Lat/Long record mapping will cost 0.1 credit).
-										
-										Address Geocoding / Address matching (one record = one credit):
-										One credit can map ONE (1) record of data containing only street address. (Each street address record mapping will cost 1 credit).</center></td></tr>
-				                    <tr><td id="grey" style="font-size:120%;"><center>Download Excel</center></td><td><center>NO</center></td><td><center>YES</center></td><td><center>YES</center></td></tr>
-				                    <tr><td id="grey" style="font-size:120%;"><center>GeoMasking</center></td><td><center>NO</center></td><td><center>YES</center></td><td><center>YES</center></td></tr>
-						    <tr><td id="grey" style="font-size:120%;"><center>Customer Support</center></td><td><center>NO</center></td><td><center>YES</center></td><td><center>YES</center></td></tr>
-				                    <!--<tr><td id="grey" style="font-size:120%;"><center>Price</center></td>
-									<td style="font-size:170%;font-weight:normal;"><center>FREE</center></td>
-									<td style="font-size:170%;font-weight:normal;"><center>5000 credit/ 10 USD*</br>25000 credit/ 50 USD*</center></td>
-									<td style="font-size:170%;font-weight:normal;"><center>99 USD/ month*</center></td></tr>-->
-									
-				                    <tr class='price'><td id="grey" style="font-size:160%;"><center>Choose Your MapTime Plan</center></td>
-									<td><center>
-										<p>FREE </p>
-									</center></td>
-									
-									
-									
-									
-									<td style="padding-top:5px!important"><center>
-										<p>PLUS &nbsp;&nbsp;|5 USD </p>
-										<p>PLUS &nbsp;&nbsp; |10 USD </p>
-										<p>PLUS &nbsp;&nbsp;|20 USD </p>
-										<p>PLUS &nbsp;&nbsp;|30 USD </p>
-								   <!--
-								    <a id="login" href="#" onclick="showDialog(&quot;dialog_login&quot;, &quot;Log in / Sign up&quot;);"><div class="large blue awesome" style="margin:5px 0px 0px 5px;">			
-								   	-->
-								   	 
-								    </div></a>
-									
-									</center></td>
-									
-									
-									
-									
-									<td><center>
-										<p>PRO &nbsp;&nbsp;&nbsp; |89 USD </p>		
-									</center></td>
-									</tr>
-				                    </tbody></table>	
-				
-				
-				    		        <span><font color="00CCFF   " style="font-family:Lato;font-size:150%;float:left;margin:3px;font-weight:normal;">			
-				    		        	<!--*Academic Discounts --->
-				    		        </font></span>	
-				    		        <span><font color="585858   " style="font-family:Lato;font-size:130%;float:left;margin:3px;font-weight:normal;">			
-				    		        	<!--make sure to select 'Academic Discount' when checking out!-->
-				    		        </font></span>					
-							        				
-								</div>
+								<a href="#contact" class="button button-small">Request a Demo</a>
+								<!--<img src='images/citybuddy/freetrial.png' class='image image-full' style='width:60%; margin:0 auto; margin-bottom:2em; '/>-->
 							</div>
 						</div>
 					</div>
-					
-				</article>
-			</div>
-
-
-			<div class="wrapper wrapper-style3">
-				<article id="trial">
-					<header>
-						<h2>Starting to use MapTime today!</h2>
-						<span><a href="https://www.pathgeo.com/maptime" class="button button-big">Start My Free Trial</a></span>
-					</header>
 				</article>
 			</div>
 
@@ -280,34 +194,45 @@
 					<div>
 						<div class="row">
 							<div class="12u">
-								<form method="post" action="#">
+								<script type="text/javascript">var submitted=false;</script>
+								<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){showDialog('dialog_thankyou')}"></iframe>
+								
+								<form action="https://docs.google.com/forms/d/1YAgxk7q1Dw9DiesTi6gmFiYSk-WyKR6sa2WAkO8vHVI/formResponse" method="POST" id="ss-form" target="hidden_iframe" onsubmit="submitted=true" >
 									<div>
 										<div class="row half">
 											<div class="6u">
-												<input type="text" name="name" id="name" placeholder="Name" />
+												<input type="text" placeholder="Name"  name="entry.528893696" value="" class="ss-q-short" id="entry_528893696" dir="auto" aria-label="Your Name (required)  " aria-required="true" required="" title="" />
 											</div>
 											<div class="6u">
-												<input type="text" name="email" id="email" placeholder="Email" />
+												<input type="text"  placeholder="Email"  name="entry.13059998" value="" class="ss-q-short" id="entry_13059998" dir="auto" aria-label="Your Email (required)  " aria-required="true" required="" title="" />
 											</div>
 										</div>
 										<div class="row half">
 											<div class="12u">
-												<input type="text" name="subject" id="subject" placeholder="Subject" />
+												<input type="text" placeholder="Subject"  name="entry.1722029570" value="" class="ss-q-short" id="entry_1722029570" dir="auto" aria-label="Subject  " title="" />
 											</div>
 										</div>
 										<div class="row half">
 											<div class="12u">
-												<textarea name="message" id="message" placeholder="Message"></textarea>
+												<textarea  placeholder="Message" name="entry.177686559"  class="ss-q-long" id="entry_177686559" dir="auto" aria-label="Your Message  " aria-required="true" required=""></textarea>
 											</div>
 										</div>
+										<!--hidden-->
+										<input type="hidden" name="draftResponse" value="[,,&quot;6253221885905318989&quot;]">
+										<input type="hidden" name="pageHistory" value="0">
+										<input type="hidden" name="fbzx" value="6253221885905318989">
+										
+										
 										<div class="row">
 											<div class="12u">
 												<a href="#" class="button form-button-submit">Send Message</a>
+												<!--<input type="submit" name="submit" value="Send Message" id="ss-submit" class="button" />-->
 												<a href="#" class="button button-alt form-button-reset">Clear Form</a>
 											</div>
 										</div>
 									</div>
 								</form>
+								
 							</div>
 						</div>
 						<div class="row">
@@ -342,10 +267,19 @@
 					<footer>
 						<ul id="copyright">
 							<li>&copy; PathGeo</li>
-							<li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>
+							<!--<li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>-->
 						</ul>
 					</footer>
 				</article>
+			</div>
+
+
+
+			<!--popup-->
+			<div id='dialog_thankyou' class='popup'>
+			    <h1>We would love to hear from you!</h1>
+			    <h3>Thank you for contacting PathGeo! <br>We will review your message and contact you as soon as possible</h3>  
+			    <a href="#" class="popup-close button" >Close</a>
 			</div>
 
 

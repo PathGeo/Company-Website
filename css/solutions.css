@@ -33,3 +33,24 @@ img {box-shadow:1px 3px 5px #cccccc;}
 #electionpath-usecases .box p {text-align:center }
 
 
+
+/**
+ * 	citybuddy
+ */
+#citybuddy-features .box img {width:50%; margin:0 auto; box-shadow:0px 0px 0px !important; }
+#citybuddy_scenario .box img {width:70%; margin:0 auto; box-shadow:0px 0px 0px !important; }
+
+
+/**
+ * 	responsive
+ */
+@media (min-width:1024px){
+	
+	
+	/**
+	 * 	electionpath
+	 */
+	.slide-electionpath-video {height:500px !important; }
+}
+
+

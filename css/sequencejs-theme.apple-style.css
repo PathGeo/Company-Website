@@ -448,6 +448,12 @@ table {
   -o-transition-duration: 1s;
   transition-duration: 1s;
 }
+
+
+
+/**
+ * 	intro
+ */
 #sequence .intro-logo {
   left: -450px;
   opacity: 1;
@@ -569,6 +575,11 @@ table {
   -o-transition-duration: 1s;
   transition-duration: 1s;
 }
+
+
+/**
+ * 	electionpath
+ */
 #sequence .slide-electionpath-video {
   left: -450px;
   position: absolute;
@@ -639,6 +650,8 @@ table {
   -o-transition-duration: 1s;
   transition-duration: 1s;
 }
+
+
 #sequence .slide-electionpath {
   left: 950px;
   position: absolute;
@@ -679,6 +692,124 @@ table {
   -o-transition-duration: 1s;
   transition-duration: 1s;
 }
+
+
+
+/*
+ * citybuddy
+ */
+#sequence .slide-citybuddy {
+  left: 950px;
+  position: absolute;
+  top: 670px;
+  width: 43%;
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+  transform: rotate(20deg);
+}
+#sequence .animate-in .slide-citybuddy {
+  left: 52%;
+  top: 140px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+#sequence .animate-out .slide-citybuddy {
+  left: 800px;
+  opacity: 0;
+  top: 220px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+#sequence .slide-citybuddy-image {
+  left: 20%;
+  position: absolute;
+  bottom: -570px;
+  z-index: 3;
+  width:auto;
+  height:400px; 
+}
+#sequence .animate-in .slide-citybuddy-image {
+  left: 20%;
+  bottom: 110px;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration:1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -ms-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+#sequence .animate-out .slide-citybuddy-image {
+  left: 47%;
+  top: -770px;
+  -webkit-transform: rotate(100deg);
+  -moz-transform: rotate(100deg);
+  -ms-transform: rotate(100deg);
+  -o-transform: rotate(100deg);
+  transform: rotate(100deg);
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 2s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+#sequence .slide-citybuddy-shadow {
+  left: 30px;
+  top: 478px;
+  opacity: 0;
+  position: absolute;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+#sequence .animate-in .slide-citybuddy-shadow {
+  left: 16%;
+  top:490px; 
+  opacity: 1;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+#sequence .animate-out .slide-citybuddy-shadow {
+  left: -800px;
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+
+
+/**
+ * 	maptime
+ */
 #sequence .slide-maptime-video {
   left: 47%;
   position: absolute;
