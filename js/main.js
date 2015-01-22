@@ -8,7 +8,6 @@ $(document).ready(function(){
    
     
     
-    
     //popup
     $(".popup").popup({
 		transition: 'all 0.1s'
