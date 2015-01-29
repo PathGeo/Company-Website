@@ -8,12 +8,24 @@ $(document).ready(function(){
    
     
     
+    
     //popup
+
     $(".popup").popup({
-		transition: 'all 0.1s'
+		transition: 'all 0.1s',
+		escape:false,
+		blur:false
 	}).find(".popup-close").click(function(){
 		$(this).parents(".popup").popup("hide");
 	});
+
+	
+	//popup shutdown
+
+	$("#dialog_shutdown").popup("show");
+
+
+	
 	
 });
 
